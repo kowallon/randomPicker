@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #496ddb;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+textarea{
+    width: 500px;
+    max-height: 200px;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
+.choices{
+    width:500px;
+    display: flex;
+    align-items: left;
+    gap: 10px;
+}
+
+.choice{
+    background-color: orange;
+    font-size: 1rem;
+    margin: 10 0;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.choice.selected{
+    background-color: grey;
+    color: white;
+}
